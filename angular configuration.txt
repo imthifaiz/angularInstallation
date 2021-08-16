@@ -1,0 +1,27 @@
+TO CONFIGURE ANGULAR
+
+install node js in browser 
+(https://nodejs.org/dist/v14.17.5/node-v14.17.5-x64.msi)
+
+then restart your computer
+
+STEP 1 -open command prompt  and write -> node -v    
+to check node js is installed or not ten check npm version -> npm -v
+
+STEP 2 -and check angular is installed or not to check type -> ng -v in cmd 
+
+STEP 3 - if angular is not install  then insatll angular globally    ->  npm install -g @angular/cli
+
+STEP 4 - then open project folder in url type cmd and type  -> npm install
+
+STEP 5 - to start angular project ng s -o
+
+---------------------------------
+PROBLEMS
+---------------------------------
+
+1 - in terminal ng s -o is not open 
+
+2 - open power shell and type -> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+3 - and start ng serve in terminal
